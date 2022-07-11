@@ -1,0 +1,124 @@
+.color_container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(9,1fr);
+  column-gap: 10%;
+  row-gap: 5vh;
+  list-style: none;
+  position: relative;
+}
+
+#color_container_show {
+  display: none;
+}
+/*.color_container li input {
+    height: 25px;
+    width: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+  }*/
+.color_filtre_box {
+  height: 25px;
+  width: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border-radius: 0px;
+  outline: none;
+  transition-duration: 0.3s;
+  background-color: white;
+  cursor: pointer;
+}
+
+.color_filtre_box.a{
+    background-color: beige;
+}
+
+.color_filtre_box.b {
+    background-color: white;
+}
+
+.color_filtre_box.c{
+    background-color: blue;
+}
+.color_filtre_box.d {
+    background-color: rgb(255, 246, 222);
+}
+.color_filtre_box.e{
+    background-color: rgb(131, 131, 131);
+}
+.color_filtre_box.f{
+    background-color: white;
+}
+.color_filtre_box.g{
+    background-color: rgb(248, 221, 88);
+}
+
+.color_filtre_box.i{
+    background-color: rgb(104, 63, 32);
+}
+
+.color_filtre_box.j {
+    background-color: rgb(229, 207, 117);
+}
+
+.color_filtre_box.k{
+    background-color: black;
+}
+
+.color_filtre_box.l{
+    background-color: rgb(228, 255, 59);;
+}
+.color_filtre_box.m{
+    background-color: rgb(236, 138, 77);
+}
+.color_filtre_box.n {
+    background-color: rgb(198, 196, 191);
+}
+.color_filtre_box.o{
+    background-color: rgb(228, 110, 181);
+}
+.color_filtre_box.p{
+    background-color: red;
+}
+
+.color_filtre_box.q{
+    background-color: rgb(97, 136, 45);
+}
+
+.color_filtre_box.r{
+    background-color: rgb(137, 79, 165);
+}
+
+
+.color_filtre_box:checked {
+    border: 1px solid black;
+}
+
+.color_container li span {
+  font-family: Avenir;
+  font-size: 12px;
+
+}
+
+
+.price_flex_container span {
+  font-family: Avenir;
+  font-size: 12px;
+}
+
+.price_flex_container input {
+  width: 60%;
+}
+
+#price_container {
+  display: none;
+}

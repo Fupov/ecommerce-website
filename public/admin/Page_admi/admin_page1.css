@@ -1,0 +1,77 @@
+body{
+    width:1000px;
+    background-image: url("img/firefox.png");
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+p11{
+  margin : 10px;
+  margin-left : 10px;
+  padding : 5px;
+  box-sizing : border-box;
+}
+p12{
+  margin : 10px;
+  margin-heft : 10px;
+  padding : 5px;
+  box-sizing : border-box;
+}
+p13{
+  margin : 10px;
+  margin-left : 10px;
+  padding : 5px;
+  box-sizing : border-box;
+}
+p14{
+  margin : 10px;
+  margin-left : 10px;
+  padding : 5px;
+  box-sizing : border-box;
+}
+
+p2{
+  font-family: times;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  color:DarkSlateGray;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+header {
+   background-color: rgb(255, 255, 255);
+   border-bottom: 2px solid black;
+   border-style: inset;
+   position: sticky;
+   top: 0px;
+   z-index: 2;
+}
+
+.title-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.Marybe {
+    box-sizing: border-box;
+    font-family: sans-serif ;
+    font-weight: 500;
+    font-size: 35px;
+    /*flex: 1 1 70%;*/
+    /*padding-left: 670px;*/
+    /*padding-left: 10%;*/
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.Marybe:visited{
+    color: black;
+}
